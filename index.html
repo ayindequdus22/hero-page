@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="eommerce.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+  <script src="jquery.js"></script>
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand d-flex justify-content-between align-items-center order-lg-0">
+            <img src="images/ANTEQS.png" alt="Teqsan">
+            <span class="text-uppercase fa-light">Clothings</span>
+        </a>
+        <div class="order-lg-2 nav-btns">
+            <div class="container search-container">
+      <i class="fa fa-search position-absolute search-icon" style="cursor:pointer" aria-hidden="true"></i>
+            <div class="search-for position-absolute">
+                <i class="fa fa-search position-absolute search" aria-hidden="true"></i>
+                <input type="search" id="search_box"  placeholder="search here...">
+            </div>
+        </div>
+        
+        </div>
+        <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse order-lg-1" id="navmenu">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item px-2 py-2">
+                    <a href="#header" class="nav-link text-uppercase text-dark active">Home</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#collection" class="nav-link text-uppercase text-dark">Collection</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#special" class="nav-link text-uppercase text-dark">Specials</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#blogs" class="nav-link text-uppercase text-dark">Blogs</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#about" class="nav-link text-uppercase text-dark">About Us</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#popular" class="nav-link text-uppercase text-dark">Popular</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End of navbar -->
+<!-- header -->
+<section class="header-sect">
+<header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top:104px">
+    <div class="container h-100 d-flex align-items-center carousel-inner">
+        <div class="text-center carousel-item active">
+            <h2 class="text-capitalize text-dark">tees & tops</h2>
+            <h1 class="text-uppercase fw-bold py-2 text-white">get your designer tops from anteqs clothing</h1>
+            <a href="#discover" class="btn btn-dark mt-3 text-uppercase discover" onclick="discover()">discover more</a>
+        </div>
+        <div class="text-center carousel-item">
+            <h2 class="text-capitalize text-dark">casual wears</h2>
+            <h1 class="text-uppercase fw-bold py-2 text-white">get your casual wears from anteqs clothing</h1>
+            <a href="#discover" class="btn btn-dark mt-3 text-uppercase discover" onclick="discover()">discover more</a>
+        </div>
+        <div class="text-center carousel-item">
+            <h2 class="text-capitalize text-dark">tailored clothing</h2>
+            <h1 class="text-uppercase fw-bold py-2 text-white">you can your favourite native clothings from anteqs clothing</h1>
+            <a href="#discover" class="btn btn-dark mt-3 text-uppercase discover" onclick="discover()">discover more</a>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="header" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="header" data-bs-slide="prev">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</header>
+</section>
+<!-- product section -->
+
+<!--end of product section -->
+<script src="js/bootstrap.js"></script>
+
+<script src="ecommerce.js"></script>
+</body>
+</html>
