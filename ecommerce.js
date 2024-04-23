@@ -1,5 +1,4 @@
 'use strict';
-alert('Welcome To Anteqs Clothing')
 document.querySelector('.search-for').classList.add('d-none');
 
 $(document).ready(function(){
